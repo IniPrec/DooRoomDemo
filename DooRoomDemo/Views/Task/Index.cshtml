@@ -1,0 +1,14 @@
+﻿@model List<DooRoomDemo.Models.TaskItem>
+@{
+    ViewData["Title"] = "Task List";
+}
+
+<h1>Tasks</h1>
+@foreach (var task in Model)
+{
+    <div>
+        <h2>@task.TaskName</h2>
+        <p>@task.TaskDescription</p>
+        <p>Status: @task.TaskStatus</p>
+    </div>
+}
