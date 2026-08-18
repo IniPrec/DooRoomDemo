@@ -12,19 +12,19 @@ namespace DooRoomDemo.Controllers
                 new Room
                 {
                     Name = "Study room",
-                    Type = "Study",
+                    Type = new List<string> { "Study" },
                     IsUnlocked = false,
                 },
                 new Room
                 {
                     Name = "Kitchen",
-                    Type = "wash, dishes",
+                    Type = new List<string> { "wash, dishes" },
                     IsUnlocked = false
                 },
                 new Room
                 {
                     Name = "Gym",
-                    Type = "exercise",
+                    Type = new List < string > { "exercise" },
                     IsUnlocked = false
                 }
             };
