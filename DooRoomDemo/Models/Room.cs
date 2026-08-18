@@ -8,6 +8,6 @@
 
         public string? Type { get; set; } // string for now {maybe}
 
-        public bool isUnlocked { get; set; }
+        public bool IsUnlocked { get; set; }
     }
 }
