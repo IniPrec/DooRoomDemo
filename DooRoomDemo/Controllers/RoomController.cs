@@ -28,7 +28,7 @@ namespace DooRoomDemo.Controllers
                     IsUnlocked = false
                 }
             };
-            return View();
+            return View(room);
         }
     }
 }
