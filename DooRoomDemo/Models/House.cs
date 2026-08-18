@@ -4,6 +4,6 @@
     {
         public Guid Id { get; set; }
 
-        public List<string>? Houses { get; set; }
+        public List<Room>? Rooms { get; set; }
     }
 }
