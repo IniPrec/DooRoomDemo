@@ -6,7 +6,7 @@
 
         public string? Name { get; set; }
 
-        public string? Type { get; set; } // string for now {maybe}
+        public List<string>? Type { get; set; } 
 
         public bool IsUnlocked { get; set; }
     }
