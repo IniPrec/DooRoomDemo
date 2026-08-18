@@ -4,6 +4,6 @@ var app = builder.Build();
 
 app.UseStaticFiles();
 app.UseRouting();
-app.MapControllerRoute(name: "default", pattern: "{controller=Task}/{actio=index}/{id?}");
+app.MapControllerRoute(name: "default", pattern: "{controller=Task}/{action=index}/{id?}");
 
 app.Run();
