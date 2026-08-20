@@ -1,0 +1,14 @@
+﻿@model List<DooRoomDemo.Models.Room>
+@{
+    ViewData["Title"] = "Room";
+}
+
+<h1>Rooms</h1>
+@foreach (var room in Model)
+{
+    <div>
+        <h2>@room.Name</h2>
+        <p>Category: @string.Join(",", room.Type)</p>
+        <p>Status: @room.IsUnlocked</p>
+    </div>
+}
